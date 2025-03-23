@@ -30,9 +30,9 @@ const _layout = () => {
       />
 
       <Tabs.Screen 
-        name="job" 
+        name="insight" 
         options={{
-          title: "Jobs",
+          title: "Insights",
           headerShown: false,
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="briefcase-outline" color={color} size={size} />
